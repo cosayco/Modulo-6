@@ -1,0 +1,20 @@
+{
+  "name": "eva",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async": "^3.2.6",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16",
+    "passport": "^0.7.0",
+    "sequelize": "^6.37.5"
+  }
+}
