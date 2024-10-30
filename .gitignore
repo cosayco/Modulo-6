@@ -1,0 +1,14 @@
+node_modules
+
+#all compress files
+*.zip
+*.tar
+
+#all log files
+*.log
+
+#all documents files
+*.pdf
+*.docx
+*.csv
+*.txt

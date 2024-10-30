@@ -1,0 +1,20 @@
+{
+  "name": "eje",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ngneat/falso": "^7.2.0",
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0"
+  }
+}
