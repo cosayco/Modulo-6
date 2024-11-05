@@ -37,6 +37,7 @@ console.log("Cantidad de objetos inicial:", mascotasJson.length);
 
 mascotasJson.push(nuevaMascotaUno);
 mascotasJson.push(nuevaMascotaDos);
+console.log("Se agregan dos mascotas!");
 
 console.log("Cantidad de objetos final:", mascotasJson.length);
 
