@@ -38,12 +38,9 @@ function validarAnime(req, res, next) {
     !keys.includes("año") ||
     !keys.includes("autor")
   ) {
-    return res
-      .status(400)
-      .json({
-        mensaje:
-          "Solo se permite nombre, genero, año y autor como propiedades.",
-      });
+    return res.status(400).json({
+      mensaje: "Solo se permite nombre, genero, año y autor como propiedades.",
+    });
   }
   if (
     typeof nombre !== "string" ||
@@ -51,11 +48,9 @@ function validarAnime(req, res, next) {
     typeof año !== "string" ||
     typeof autor !== "string"
   ) {
-    return res
-      .status(400)
-      .json({
-        mensaje: "El nombre, genero, año y autor deben ser un tipo texto",
-      });
+    return res.status(400).json({
+      mensaje: "El nombre, genero, año y autor deben ser un tipo texto",
+    });
   }
   next();
 }
@@ -114,7 +109,7 @@ app.put("/animes/:id", validarAnime, (req, res) => {
   if (animes[id]) {
     animes[id] = { ...animes[id], ...nuevaInformacion };
     escribirAnime(animes);
-    res.json({ Mensaje: "Película actualizada correctamente" });
+    res.json({ Mensaje: "Anime actualizado correctamente" });
   } else {
     res.status(404).json({ Mensaje: "Anime no ha sido encontrado" });
   }
