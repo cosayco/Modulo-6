@@ -1,0 +1,16 @@
+{
+  "name": "evaluacionfinal",
+  "version": "1.0.0",
+  "description": "Evaluacion Final Modulo 6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Duran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
